@@ -1,3 +1,50 @@
+libextutils-helpers-perl (0.028-1) unstable; urgency=medium
+
+  * Import upstream version 0.028.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 06 Sep 2024 02:24:56 +0200
+
+libextutils-helpers-perl (0.027-1) unstable; urgency=medium
+
+  * Import upstream version 0.027.
+  * Update debian/upstream/metadata.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.7.0.
+  * Set Rules-Requires-Root: no.
+
+ -- gregor herrmann <gregoa@debian.org>  Sun, 23 Jun 2024 00:20:11 +0200
+
+libextutils-helpers-perl (0.026-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + libextutils-helpers-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 22 Oct 2022 11:30:19 +0100
+
+libextutils-helpers-perl (0.026-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Oct 2022 13:44:36 +0100
+
+libextutils-helpers-perl (0.026-2) unstable; urgency=medium
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Mon, 13 Jun 2022 21:52:57 +0100
+
+libextutils-helpers-perl (0.026-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 13 Jun 2022 17:27:25 +0200
+
 libextutils-helpers-perl (0.026-1) unstable; urgency=medium
 
   [ Salvatore Bonaccorso ]

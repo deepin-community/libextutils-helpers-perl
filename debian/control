@@ -4,15 +4,17 @@ Uploaders: gregor herrmann <gregoa@debian.org>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
-Build-Depends: debhelper (>= 9)
+Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: perl
-Standards-Version: 3.9.8
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libextutils-helpers-perl.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libextutils-helpers-perl.git
+Standards-Version: 4.7.0
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libextutils-helpers-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libextutils-helpers-perl.git
 Homepage: https://metacpan.org/release/ExtUtils-Helpers
+Rules-Requires-Root: no
 
 Package: libextutils-helpers-perl
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends},
          ${perl:Depends}
 Description: various portability utilities for module builders
